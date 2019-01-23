@@ -1,0 +1,9 @@
+<!DOCTYPE catalog>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+
+	<!-- Mother of catalogs, cannot reference the catalog dtd/xsd without creating a chicken/egg problem -->
+
+	<public publicId="-//OASIS//DTD XML Catalogs V1.1//EN" uri="classpath:/be/fgov/sfpd/common/infrastructure/xml/catalog/catalog.dtd" />
+	<rewriteSystem systemIdStartString="http://www.oasis-open.org/committees/entity/release/1.1/" rewritePrefix="classpath:/be/fgov/sfpd/common/infrastructure/xml/catalog/" />
+	
+</catalog>
